@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>node js course by udemy</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+   
+  </head>
+  <body class="d-flex flex-column h-100">
+    <!-- Begin page content -->
+
+    {{>header}}
+    <h1>{{title}} by {{name}}</h1>
+    <img src="/images/image-4.jpg" alt="">
+
+    <p>use this site to get weather!</p>
+
+    <form>
+      <input type="text" placeholder="Location" />
+      <input type="submit" value="search"/>
+    </form>
+
+    <p class="message-one"></p>
+    <p class="message-two"></p>
+
+
+    {{>footer}}
+     <script type="text/javascript" src="/js/custom.js"></script>
+  </body>
+
+</html>
