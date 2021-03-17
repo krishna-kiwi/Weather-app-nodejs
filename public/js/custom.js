@@ -11,7 +11,7 @@ const msgTwo = document.querySelector('.message-two');
 
 function fetchApi(location){
     msgTwo.innerHTML= 'Loading...';
-    fetch(`http://localhost:4000/weather?address=${location}`).then((response) => {
+    fetch(`/weather?address=${location}`).then((response) => {
         
         response.json().then((data) => {
         

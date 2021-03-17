@@ -93,7 +93,7 @@ app.get('/about/*',(req,res) => {
 
 
 
-const port  = process.env.port || 4000;
+const port  = process.env.PORT || 4000;
 app.listen(port,function(){
     console.log(`server started at port ${port}`)
 })
